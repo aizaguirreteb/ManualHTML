@@ -1,0 +1,2234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Manual HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />    
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/controlador.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+            <style type="text/css">
+                body { background: rgb(201, 200, 200) !important; } 
+            </style>
+               
+
+        <header class="row justify-content-center mt-3 mb-3" >
+            <img src="./img/6674301095_77bb086c19_b.jpg" class="ajustes" >
+
+        </header>
+
+        <header class="row bg-transparent"></header>
+        <nav class="row navbar navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Manual HTML</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mi_menu"
+                aria-controls="mi_menu" aria-expanded="true" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mi_menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="menu_0">Manual HTML</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Etiquetas Básicas</a>
+                        <div class="dropdown-menu bg-secondary" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#" id="menu_3_1">Estructura Básica</a>
+                            <a class="dropdown-item" href="#" id="menu_3_2">Formato de Texto</a>
+                            <a class="dropdown-item" href="#" id="menu_3_3">Etiquetas Semánticas</a>
+                            <a class="dropdown-item" href="#" id="menu_3_4">Listas</a>
+                            <a class="dropdown-item" href="#" id="menu_3_5">Tablas</a>
+                            <a class="dropdown-item" href="#" id="menu_3_6">Modelo de Cajas</a>
+                            <a class="dropdown-item" href="#" id="menu_3_7">Formularios</a>
+                            <a class="dropdown-item" href="#" id="menu_3_8">Enlaces</a>
+                            <a class="dropdown-item" href="#" id="menu_3_9">Multimedia</a>
+                            <a class="dropdown-item" href="#" id="menu_3_10">Canvas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Accesibilidad</a>
+                        <div class="dropdown-menu bg-secondary" aria-labelledby="dropdown02">
+                            <a class="dropdown-item" href="#" id="menu_4_1">WCAG</a>
+                            <a class="dropdown-item" href="#" id="menu_4_2">Niveles A, AA, AAA</a>
+                            <a class="dropdown-item" href="#" id="menu_4_3">Normativa. Requisitos y Sanciones.</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">CSS</a>
+                        <div class="dropdown-menu bg-secondary" aria-labelledby="dropdown03">
+                            <a class="dropdown-item" href="#" id="menu_5_1">Cómo enlazarlo</a>
+                            <a class="dropdown-item" href="#" id="menu_5_2">Colores Y Fondos</a>
+                            <a class="dropdown-item" href="#" id="menu_5_3">Formato CSS</a>
+                            <a class="dropdown-item" href="#" id="menu_5_4">Textos</a>
+                            <a class="dropdown-item" href="#" id="menu_5_5">Clases e IDs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Ayuda</a>
+                        <div class="dropdown-menu bg-secondary" aria-labelledby="dropdown04">
+                            <a class="dropdown-item" href="#" id="menu_6_1">Sobre esta aplicación.</a>
+                            <a class="dropdown-item" href="#" id="menu_6_2">Manual de Usuario</a>
+                            <a class="dropdown-item" href="#" id="menu_6_3">Bibliografía</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        
+
+        
+        <div id="panel_0" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white"> Bienvenido </h1>
+                </header>
+
+            <p>¿Estás aprendiendo HTML o CSS y no te enteras de nada?</p>
+                <p>¡NO TEMAS!</p>
+                <p>Aquí tienes un poco de ayuda para comenzar, dentro de poco podrás hacer cosas como las que ves abajo!
+            </p>
+
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-touch="true">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/Captura_carrusel_1.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/Captura_carrusel_2.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/Captura_carrusel_3.PNG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+        </div>
+
+        <div id="panel_3_1" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white"> Estructura básica de una web </h1>
+                </header>
+
+            
+
+            <p>Toda WebApp o página web suele tener una estructura parecida a esta normalmente:</p>
+                
+            <img src="./img/tree.png" class="ajustes">
+
+            <p>A su vez, el fichero &lt;b&gt;index.html&lt;/b&gt;, tendrá como mínimo la siguiente estructura:</p>
+            <hr />
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>&lt;head&gt;</p>
+            <p>
+                &lt;meta charset="utf-8" /&gt;</p>
+            <p>&lt;title&gt;Título
+                de la web&lt;/title&gt;</p>
+            <p>&lt;meta
+                name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
+            <p>&lt;link
+                rel="stylesheet" type="text/css" media="screen" href="css/main.css" /&gt;</p>
+            <p>&lt;script
+                src="js/main.js"&gt;&lt;/script&gt;</p>
+            <p>&lt;/head&gt;</p>
+            <p>&lt;body&gt;</p>
+
+            <p>&lt;/body&gt;</p>
+            <p>&lt;/html&gt;</p>
+            <hr />
+            <p>Para indicar que es HTML5 ponemos la siguiente marca:</p>
+
+            <hr />
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <hr />
+            <p>El elemento raíz de todo archivo html es la etiqueta:</p>
+
+            <hr />
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+            <hr />
+            <p>Todo HTML debe tener las etiquetas <i>HEAD</i> (las cabeceras: normalmente es la
+                metainformación, hojas de
+                estilo, JavaScript, etc) y <i>BODY</i> (el contenido puro de la Web):</p>
+
+            <hr />
+            <p>&lt;!DOCTYPE&gt;
+            </p>
+            <p>&lt;html&gt;
+            </p>
+            <p>&lt;head&gt;&lt;/head&gt;
+            </p>
+            <p>&lt;body&gt;&lt;/body&gt;
+            </p>
+            <p>&lt;/html&gt;
+            </p>
+            <hr />
+
+            <h2> La cabecera</h2>
+
+            <p>Como hemos visto la cabecera va delimitada por la etiqueta <i>&lt;head&gt;</i></p>
+
+            <p>1. Codificación de caracteres</p>
+            <p>2. Título de la página</p>
+            <p>3. En qué fichero o ficheros estan las hojas de estilo (css)</p>
+            <p>4. En qué fichero o ficheros esta el código JavaScript de mi página</p>
+
+            <p>Ejemplo:</p>
+
+            <hr />
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="utf-8" /&gt;</p>
+            <p>&lt;title&gt;Título de la web&lt;/title&gt;</p>
+            <p>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
+            <p>&lt;link rel="stylesheet" type="text/css" media="screen" href="css/main.css" /&gt;</p>
+            <p>&lt;script src="js/main.js"&gt;</p>
+            <p>&lt;/script&gt;
+            </p>
+            <p>&lt;/head&gt;
+            </p>
+            <p>&lt;body&gt;
+            </p>
+            <p>Cuerpo de página</p>
+            <p>&lt;/body&gt;
+            </p>
+            <p>&lt;/html&gt;</p>
+            <hr />
+
+            <h2>El cuerpo</h2>
+
+            <p>El cuerpo, etiqueta &lt;body&gt;, es como su nombre indica, el cuerpo de la página, el contenido
+                "puro"
+                textual de mi web.</p>
+
+            <p>A su vez el cuerpo contiene otras etiquetas para dar formato o información del texto de la Web.
+                Distinguimos
+                entre etiquetas semánticas y etiquetas de formato.</p>
+
+            <h1>Etiquetas básicas de HTML5</h1>
+
+            <h2>Título</h2>
+
+            <p>Para definir los títulos usaremos la etiqueta
+                <hr />
+                &lt;h1&gt;
+                Título 1 &lt;/h1&gt;</p>
+            <hr />
+            <p>Siendo h1 para el título y h2, h3, h4... para los encabezados.</p>
+
+            <h2>Párrafos</h2>
+
+            <p>Para poder introducir un párrafo necesitaremos usar la etiqueta</p>
+
+            <hr />
+
+            <p>&lt;p&gt;Párrafo 1 &lt;/p&gt;</p>
+            <p>&lt;p&gt;Párrafo 2 &lt;/p&gt;</p>
+            <p>&lt;p&gt;Párrafo 3 &lt;/p&gt;</p>
+
+            <hr />
+
+            <p>Si necesitas insertar un salto de línea usa la etiqueta:
+
+                <hr />
+                &lt;br/&gt;
+            </p>
+            <hr />
+
+            <p>Si necesitamos insertar una línea horizontal de texto:
+
+                <hr />
+
+                &lt;hr/&gt;
+            </p>
+            <hr />
+
+        </div>
+
+
+        <div id="panel_3_2" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Etiquetas para dar formato al texto
+                        </h1>
+                </header>
+
+            
+            <p>Son etiquetas que permiten marcar y dar formato a las palabras del texto.</p>
+            <h3>
+                Negrita
+            </h3>
+            <p>Utilizamos la etiqueta &lt;strong&gt; &lt;/strong&gt;</p>
+            <p>Por ejemplo:</p>
+            <p>&lt;strong&gt; Palabra &lt;/strong&gt; se vería como <strong>Palabra</strong></p>
+            <h3>
+                Cursiva
+            </h3>
+            <p>Utilizamos la etiqueta &lt;em&gt; &lt;/em&gt;</p>
+            <p>&lt;em&gt; Palabra &lt;/em&gt; se vería como <em>Palabra</em></p>
+            <h3>
+                Subíndice
+            </h3>
+            <p>La etiqueta &lt;sub&gt; &lt;/sub&gt; nos permite que el texto aparezca por debajo de la línea base y
+                en un
+                tamaño más pequeño.</p>
+            <p>Por ejemplo:</p>
+            <p>Palabra&lt;sub&gt;índice&lt;/sub&gt; se vería como Palabra<sub>índice</sub></p>
+            <h3>
+                Superíndice
+            </h3>
+            <p>La etiqueta &lt;sup&gt; &lt;/sup&gt; nos permite que el texto aparezca por encima y en un tamaño más
+                pequeño.</p>
+            <p>Por ejemplo:</p>
+            <p>Palabra&lt;sup&gt;índice&lt;/sup&gt; se vería como Palabra<sup>índice</sup></p>
+
+        </div>
+
+        <div id="panel_3_3" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Etiquetas Semánticas
+                        </h1>
+                </header>
+
+            
+            <P>En este artículo vamos
+                a ver las etiquetas semánticas de HTML5, como HEADER, ARTICLE,
+                SECTION, ASIDE, FOOTER, NAV, FIGURE, TIME, ...</P>
+            <P>Lo primero que conviene
+                remarcar es que HTML5 no es un lenguaje nuevo en contraposición a
+                HTML, sino una nueva versión del mismo lenguaje. También hay que
+                recordar que HTML5 incorpora cambios en profundidad que los
+                navegadores antiguos no son capaces de mostrar, por lo tanto que hay
+                que tener actualizado el navegador.</P>
+            <P>Las etiquetas
+                semánticas ayudan a definir la estructura del documento y permiten
+                que las páginas web sean mejor indexadas por los buscadores.</P>
+            <P>Una etiqueta se
+                califica como semántica si tiene que ver el significado, es decir,
+                si nos informa sobre lo que trata su contenido. Por ejemplo, la
+                etiqueta SECTION nos dice que contiene una sección o capítulo
+                dentro de la página. Frente a las etiquetas semánticas tenemos
+                otros tipos de etiquetas como las que afectan al formato, como UL, a
+                multimedia, como VIDEO, etc.</P>
+            <P> <BR><BR> </P>
+            <P>El esquema de una página con etiquetas semánticas podría ser el siguiente.</P>
+            <p><img alt="" src="./img/estructura-html5.jpg" class="ajustes"><BR><BR></p>
+            <P><BR><BR></P>
+
+            <P>Antes de la existencia
+                de las etiquetas semánticas, el contenido se estructuraba con
+                etiquetas DIV que no aportaban ninguna información sobre el tema que
+                trataban, salvo que se añadiese aprovechando el valor dado a la
+                propiedad ID, o a la propiedad CLASS para hacer referencia a su
+                contenido.</P>
+            <P>Las etiquetas a las que
+                vamos a prestar más atención en este artículo son las que definen
+                la estructura general del sitio ( HEADER, ARTICLE, SECTION, ASIDE,
+                FOOTER, NAV ) aunque también existen otra nuevas etiquetas
+                semánticas que señalan elementos concretos de la página como la
+                etiqueta FIGURE, para imágenes y gráficos, la etiqueta FIGCAPTION,
+                que es un pie de imagen, la etiqueta TIME para definir fechas y
+                horas, también MAIN, MARK, SUMARY Y DETAILS.</P>
+            <P>Por ejemplo, el código
+                siguiente produce el resultado que se ve a continuación utilizando
+                las etiquetas FIGURE y FIGCAPTION.</P>
+
+        </div>
+
+        <div id="panel_3_4" class="panel">
+
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Listas
+                        </h1>
+                </header>
+
+            
+
+            <p>Las listas en HTML van definidas con la etiqueta &lt;li&gt;. </p>
+            <p>Pueden ser de tres tipos:</p>
+
+
+            <ul>
+                <li type="circle">No ordenadas.</li>
+
+                <li type="circle">Ordenadas.</li>
+
+                <li type="circle">De definiciones.</li>
+
+            </ul>
+            <h2>No ordenadas</h2>
+            <p>
+                El primer tipo es el no ordenado. En éste, los índices aparecen como símbolos, tal y como hemos
+                visto
+                antes. La lista
+                va definida con la etiqueta &lt;ul&gt;. Dentro de su etiqueta &lt;li&gt; se les puede añadir un
+                type
+                para que el índice varie su forma. He aqui un ejemplo:
+            </p>
+
+            <ul>
+
+                <li type="circle">Con type="circle".</li>
+
+                <li type="square">Con type="square".</li>
+
+                <li type="disc">Con type="disc".</li>
+                <li>Si no se añade un type, se pondrá este índice por defecto.</li>
+
+            </ul>
+            <br />
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#ejemplo_ListaNoOrdenada"
+                aria-expanded="false" aria-controls="collapseExample">
+                Ver código
+            </button>
+            <br /> <br />
+            <div id="ejemplo_ListaNoOrdenada" class="collapse">
+                <p> &lt;li type="circle">Con type="circle".&lt;/li></p>
+
+                <p> &lt;li type="square">Con type="square".&lt;/li></p>
+
+                <p> &lt;li type="disc">Con type="disc".&lt;/li></p>
+            </div>
+            <br />
+            <h2>Ordenadas</h2>
+            <p>
+                El segundo tipo es la lista ordenada. Este tipo va entre la etiqueta &lt;ol&gt; y dentro de la
+                etiqueta del primer miembro de la lista se le añade un valor de la siguiente manera:
+                &lt;li value = "x"&gt;, siendo x el primer número del índice de la lista, el resto se pone de
+                manera
+                automática:
+            </p>
+
+            <ol>
+                <li value="1"> El primer miembro de la lista, el cual añade value="x".</li>
+                <li> Segundo miembro de la lista.</li>
+                <li> Y así sucesivamente.</li>
+            </ol>
+            <br />
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#ejemplo_ListaOrdenada"
+                aria-expanded="false" aria-controls="collapseExample">
+                Ver código
+            </button>
+            <br /> <br />
+
+            <div id="ejemplo_ListaOrdenada" class="collapse">
+                <p> &lt;li value="1"> El primer miembro de la lista, el cual añade value="x".&lt;/li></p>
+
+                <p> &lt;li>Segundo miembro de la lista.&lt;/li></p>
+
+                <p> &lt;li>Y así sucesivamente.&lt;/li></p>
+            </div>
+
+            <h2>Listas de definición</h2>
+            <p>
+                La lista de definiciones, es el tercer tipo, la cual, va definida con la etiqueta &lt;dl&gt;
+                y nos permite realizar un listado de definiciones.
+            </p>
+            <p>
+                Dentro de la etiqueta &lt;dl&gt; se implementan dos etiquetas: &lt;dt&gt; y &lt;dd&gt;.La primera
+                sirve para crear el título de la lista a definir y el segundo para definirlo. Veamos un ejemplo:
+            </p>
+
+
+
+            <dl>
+
+                <dt> Nombre del elemento a definir.</dt>
+                <dd> Definición del elemento, que es tabulado al crearlo para mejorar su visualización.</dd>
+                <dt> Segundo elemento de la lista de definiciones.</dt>
+                <dd> Definición del elemento.</dd>
+            </dl>
+
+            <br />
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#ejemplo_ListaDefinicion"
+                aria-expanded="false" aria-controls="collapseExample">
+                Ver código
+            </button>
+            <br /> <br />
+
+            <div id="ejemplo_ListaDefinicion" class="collapse">
+                &lt;dl>
+
+                <p> &lt;dt> Nombre del elemento a definir.&lt;/dt></p>
+                <p> &lt;dd> Definición del elemento, que es tabulado al crearlo para mejorar su
+                    visualización.&lt;/dd></p>
+                <p>&lt;dt> Segundo elemento de la lista de definiciones.&lt;/dt></p>
+                <p> &lt;dd> Definición del elemento.&lt;/dd></p>
+                &lt;/dl>
+
+            </div>
+            <br/>
+            <br/>
+
+
+        </div>
+
+        <div id="panel_3_5" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Tablas
+                        </h1>
+                </header>
+
+            
+            <p> Se empieza con la etiqueta &lt;table&gt;. Por cada fila se indica &lt;tr&gt; y por cada columna
+                &lt;td&gt;</p>
+
+            <hr />
+            <table border="1">
+                <tr>
+                    <td>Día/hora</td>
+                    <td>Lunes</td>
+                    <td>Martes</td>
+                    <td>Miércoles</td>
+                    <td>Jueves</td>
+                    <td>Viernes</td>
+                </tr>
+                <tr>
+                    <td>10:30</td>
+                    <td>Matemáticas</td>
+                    <td>Geografía</td>
+                    <td>Física</td>
+                    <td>Dibujo</td>
+                    <td>Matemáticas</td>
+                </tr>
+            </table>
+            <br />
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#ejemplo_tabla"
+                aria-expanded="false" aria-controls="collapseExample">
+                Ver código
+            </button>
+            <br /> <br />
+
+
+            <div id="ejemplo_tabla" class="collapse">
+                <p>&lt;table border="1"&gt;</p>
+                <p>&lt;tr&gt;</p>
+
+                <p>&lt;td&gt;Lunes&lt;/td&gt;</p>
+                <p>&lt;td&gt;Martes&lt;/td&gt;</p>
+                <p>&lt;td&gt;Miércoles&lt;/td&gt;</p>
+                <p>&lt;td&gt;Jueves&lt;/td&gt;</p>
+                <p>&lt;td&gt;Viernes&lt;/td&gt;</p>
+                <p>&lt;/tr&gt;</p>
+                <p>&lt;tr&gt;</p>
+                <p>&lt;td&gt;10:30&lt;/td&gt;</p>
+                <p>&lt;td&gt;Matemáticas&lt;/td&gt;</p>
+                <p>&lt;td&gt;Geografía&lt;/td&gt;</p>
+                <p>&lt;td&gt;Física&lt;/td&gt;</p>
+                <p>&lt;td&gt;Dibujo&lt;/td&gt;</p>
+                <p>&lt;td&gt;Matemáticas&lt;/td&gt;</p>
+                <p>&lt;/tr&gt;</p>
+                <p>&lt;/table&gt;</p>
+            </div>
+            <hr />
+            <h3>Atributos de la etiqueta table</h3>
+            <p>El atributo <u>border</u> sirve para indicar la anchura del borde</p>
+            <p>El atributo <u>cellpadding</u> especifica el espacio en píxeles entre el borde de la celda y el
+                contenido de la misma. En definitiva es el espacio interior de la celda.</p>
+            <p>El atributo <u>cellspacing</u> espacio en píxeles existente entre celda y celda</p>
+            <p>El atributo <u>width</u> anchura de la tabla, puede ser en píxeles o en porcentaje sobre la anchura de
+                la página (usando el signo %)</p>
+            <p>El atributo <u>rules</u> indica qué bordes de la tabla se mostrarán: </p>
+            <ul>
+                <li>none: Sin líneas</li>
+                <li>groups: Pone líneas sólo para separar las etiquetas de grupos</li>
+                <li>rows: Bordes horizontales (entre filas)</li>
+                <li>cols: Birdes verticales (entre columnas)</li>
+                <li>all: Todos los bordes de la tabla</li>
+            </ul>
+            <h2>Celdas de cabecera</h2>
+            <p> Es muy habitual que las tablas muestren datos y que estos posean celdas que sirvan para describirles.
+                Esas celdas se consideran de cabecera y se marcan con th. &lt;th&gt;&lt;/th&gt;</p>
+            <h2>Títulos de tablas</h2>
+            <p>A las tablas se les puede poner un título con ayuda de la etiqueta caption.
+                &lt;caption&gt;&lt;/caption&gt;</p>
+            <h2>Etiquetas de agrupación de elementos de una tabla</h2>
+            <p>Hay tres elementos HTML que sirven para diferenciar las tres partes principales de una tabla</p>
+            <ul>
+                <li>thead: Sirve para indicar las filas que forman la cabecera de la tabla</li>
+                <li>tfoot: Indica el pie de la tabla</li>
+                <li>tbody: Indica el cuerpo de la tabla</li>
+            </ul>
+            <hr />
+
+            <p>Ej:
+                <table border="1" rules="groups"> <br />
+                    &lt;caption&gt;Ventas por secciones&lt;/caption&gt;<br />
+                    &lt;thead&gt;<br />
+                    &lt;tr&gt;<br />
+                    &lt;td&gt; &nbsp; &lt;/td&gt;<br />
+                    &lt;td&gt;Hardware&lt;/td&gt;<br />
+                    &lt;td&gt;Software&lt;/td&gt;<br />
+                    &lt;/tr&gt;<br />
+                    &lt;/thead&gt;
+                </table>
+            </p>
+
+            <hr />
+            <h2>Combinar celdas</h2>
+            <p>Las etiquetas de columna (td y th) son las que poseen los atributos que permiten esta operación. En
+                concreto son los atributos</p>
+            <ul>
+                <li>colspan: Combinar la celda actual con el númeor de celdas a la derecha que se indique. Ej:
+                    <u>colspan="3"</u></li>
+                <li>rowspan: Combina la celda actual con el número de celdas hacia abajo que se indique. Ej:
+                    <u>rowspan="3"</u></li>
+            </ul>
+            <h2>Tablas dentro de tablas</h2>
+            <p>Para generar tablas aún más complejas, se pueden meter elementos table, dentro de otras tablas. Lo que
+                se hace es meter una etiqueta table (con todos sus elementos de fila y columna) en un td o th. <br />
+                Esta combinación permite realizar formatos de tabla a capricho y de esa forma conseguir disposiciones
+                de páginas extremadamente complejas.
+            </p>
+        </div>
+
+        <div id="panel_3_6" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Modelos de caja
+                        </h1>
+                </header>
+
+            
+
+            <p>
+                Todo elemento en HTML se rodea de una caja con varias propiedades que pueden ser modificadas.
+            </p>
+
+           
+
+            <p>
+                Los elementos margin (margen) y padding (contenido) nos permiten tener un gran control sobre cómo
+                debe
+                situarse cada elemento.
+            </p>
+
+            <h2>Altura y anchura de las cajas.</h2>
+
+            <p>
+
+                Cada elemento HTML de una página web cuenta con una anchura y una altura específica. En muchos
+                casos, esas
+                dimensiones se las proporciona el propio contenido, como
+                por ejemplo en un párrafo o una imagen.
+                Esos valores de anchura (width) y de altura (height) pueden ser modificados mediante las hojas de
+                estilo
+                gracias a las propiedades del mismo nombre.
+                Así, podemos hacer párrafos más estrechos, imágenes que se sobredimensionen o simplemente ajustar
+                diferentes bloques para que se acomoden correctamente en la pantalla.
+                Los valores width y height se acompañan de un valor numérico exacto o de un porcentaje, como en
+                otras
+                muchas propiedades.
+
+                <p>body {</p>
+
+                <p>principal { width: 400px;</p>
+                <p>background-color: rgb(0, 126, 0);</p>
+                <p>}</p>
+
+            </p>
+
+            <h2>Margen</h2>
+
+            <p>
+
+                El margen viene dado por la propiedad margin, modificando el valor numerico (puede ser en
+                porcentaje
+                tambien), le daremos forma:
+
+            </p>
+
+            <p>
+                img { padding: 20px; }
+            </p>
+
+            <h2>Relleno</h2>
+
+            <p>
+
+                El relleno es la distancia entre el borde y la imagen propiamente dicha. Para ello usaremos la
+                propiedad
+                padding. Se implementa igual que el margen.
+
+            </p>
+
+            <p>img { padding: 5px; }</p>
+
+            <h2>Borde</h2>
+
+            <p>
+
+                El borde se implementa con la propiedad border y simboliza la distancia entre el margen y el
+                relleno.
+
+            </p>
+
+
+            <p> img {</p>
+
+            <p>border-width: 2px;</p>
+            <p>border-style: solid;</p>
+            <p>border-color: #007000;</p>
+            <p> }</p>
+
+            <h2>Laterales</h2>
+
+            <p>
+
+                Las tres propiedades anteriores pueden usarse para modificar el lateral de una caja. Añadiendo
+                a cada uno la variación -left (izquierda), -right (derecha), -top (arriba) y -down (abajo)
+                conseguimos
+                que sólo afecte al valor o a los valores indicados. Por ejemplo:
+
+            </p>
+            <p> h1 { </p>
+
+            <p>margin-top:40px; </p>
+            <p>padding-left: 5px; </p>
+            <p>padding-right:5px; </p>
+            <p>border-top-width: 2px; </p>
+            <p>border-top-style: dotted; </p>
+            <p>border-top-color: #007000; </p>
+            <p>border-bottom-width: 2px; </p>
+            <p>border-bottom-style: double; </p>
+            <p>border-bottom-color: #007000; </p>
+            <p> } </p>
+
+
+            <h2>Más opciones para los bordes</h2>
+
+            <h3>Estilo</h3>
+
+            <p>El estilo se basa en una serie de valores concretos:</p>
+
+            <ol>
+
+                <li value="1"> dotted: punteado.</li>
+                <li>dashed: línea discontinua.</li>
+                <li>solid: línea continua.</li>
+                <li>double: línea doble.</li>
+                <li>groove: tipo de relieve.</li>
+                <li>ridge: tipo de relieve.</li>
+                <li>inset: tipo de relieve.</li>
+                <li>outset: tipo de relieve.</li>
+                <li>none: empleado para indicar que no habrá borde</li>
+
+
+            </ol>
+
+            <h3>Esquinas redondeadas</h3>
+
+            <p>Permite trazar bordes en la caja usando border-radius acompañado de un valor numérico </p>
+
+            <p> img {</p>
+
+            <p>border: 2px solid #007000;</p>
+            <p>border-radius:25px;</p>
+            <p> }</p>
+
+            <h3>Sombras</h3>
+
+            <p>
+
+                Las cajas pueden proyectar una sombra. Para proyectar la sombra de la caja usamos la propiedad
+                box-shadow.
+
+            </p>
+
+            <p>table {box-shadow: 8px 8px 6px #aaaaaa; }</p>
+
+            <h3>Elementos flotantes</h3>
+
+            <p>Con la propiedad float podemos reubicar los elementos. De esta manera, el contenido se situará
+                alrededor de
+                ese elemento </p>
+
+            <p>img { float:left;}</p>
+
+            <h2>Capas. Etiqueta div</h2>
+
+            <p>
+                la etiqueta &lt;div&gt; nos permite definir un bloque o sección de la página. Esto nos permite
+                tener varios
+                estilos diferentes o aplicar estilos distintos a cada sección.
+            </p>
+
+            <p>Veamos un ejemplo:</p>
+            
+            <div>
+                <h1>Índice</h1>
+                Página principal<br />
+                Material multimedia<br />
+                Autores<br />
+            </div>
+            <br />
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#ejemplo_modelo_cajas"
+                aria-expanded="false" aria-controls="collapseExample">
+                Ver código
+            </button>
+            <br /> <br />
+
+            <div id="ejemplo_modelo_cajas" class="collapse">
+                <p>&lt;div&gt;</p>
+                <p>&lt;h1>Índice&lt;/h1&gt;</p>
+                <p>Página principal</p>
+                <p>Material multimedia</p>
+                <p>Autores</p>
+                <p>&lt;/div&gt;</p>
+            </div>
+
+            <p>
+                Esto nos ha permitido crear un bloque que hara de índice de contenidos. Aunque no veamos ningún
+                cambio, la
+                estructura interna del
+                documento ha sido totalmente modificada.
+            </p>
+
+            <p>
+                Vamos a probar a aplicar una modificiación a la apariencia, añadiendo un estilo visto
+                anteriormente, usando
+                el atributo style y
+                border, por ejemplo, para manipular el borde de la caja.
+            </p>
+
+            <p>&lt;div style="border: 2px solid rgb(204, 102, 204);"></p>
+
+            <div style="border: 2px solid rgb(204, 102, 204);">
+                <h1>Índice</h1>
+                Página principal<br />
+                Material multimedia<br />
+                Autores<br />
+            </div>
+
+            <h3>La etiqueta span. Diferencias entre div y span.</h3>
+
+            <p>
+
+                Con la etiqueta span conseguimos un efecto similar a div, pero se aplica dentro de un párrafo.
+                Mientras que
+                al usar div, al cerrar la etiqueta,
+                se empieza un párrafo nuevo.
+
+            </p>
+
+            <p>
+
+                Las etiquetas div y span se acompañan con dos parámetros destinados a identificar los bloques:
+                <ul>
+
+                    <li>id: Permite crear un identificador único para cada bloque.</li>
+
+                    <li>class: Similar a id, pero este se puede repetir. Gracias a esto, podemos tener varios div
+                        diferentes en la misma class.</li>
+
+                </ul>
+
+                <p>
+
+                    Usando id y class podemos diferenciar los distintos div y aplicar distintos CSS a cada uno o
+                    hacer que
+                    actuen de distinta forma según nos convengan.
+
+                </p>
+
+                <p> Veamos un ejemplo para ver como funcionan: </p>
+
+                <p>&lt;div id="indice"&gt;</p>
+                <p>índice</p>
+                <p>&lt;/div&gt;</p>
+                <p>&lt;div class="destacado"&gt;</p>
+                <p>Este texto se destaca mediante un estilo.</p>
+                <p>&lt;/div&gt;</p>
+                <p>&lt;div id="articulo15" class="articulos_estandar"&gt;</p>
+                <p>Texto de un artículo</p>
+                <p>&lt;/div&gt;</p>
+
+                <div id="indice">
+                    <br>Índice
+                </div>
+                <div class="destacado">
+                    Este texto se destaca mediante un estilo.
+                </div>
+                <div id="articulo15" class="articulos_estandar">
+                    Texto de un artículo
+                </div>
+
+                <p>Las etiquetas id y class pueden ser mezcladas manteniendo siempre las normas dichas
+                    anteriormente.</p>
+
+        </div>
+
+        <div id="panel_3_7" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Formularios                        
+                        </h1>
+                </header>
+
+            
+
+            <p>
+                Los formularios son uno de los principales elementos que permite la iteraccion entre un usuario y
+                un sitio
+                web
+                pues permiten enviar informacion al sitio web.
+            </p>
+            <p>
+                Para crear un formulario, lo primero que podria venir bien es hacer un esbozo o diseño para saber
+                exactamente
+                que queremos
+            </p>
+            <p>
+                Una vez realizado, el primer paso es añadir la etiqueta &lt;form&gt;, esta etiqueta es la que crea
+                el
+                formulario. Dentro cuenta con tres atributos:
+            </p>
+
+            <dl>
+
+
+                <dt> action</dt>
+                <dd> Indica el tipo de accion que va a realizar el fomulario, como a una base de datos o a un
+                    correo
+                    electronico.
+                    Si queremos que se mande a u correo se pondra &lt;form
+                    action=mailto:direcciondelcorreo@correo.com…&gt;.
+                </dd>
+
+                <dt> method</dt>
+                <dd> Indicara la forma de mandar el formlario. Existen dos tipos:
+                    <dl>
+                        <dt> get</dt>
+                        <dd>
+                            Metodo por defecto. Si no concretamos el metodo se enviara de esta forma.
+                            "get” indica que los datos enviados se adjuntarán en la barra de direcciones del
+                            cliente, al
+                            final de la url correspondiente y después de un signo de interrogación de cierre.
+                            Si se envía más de un dato, éstos irán separados por el símbolo &.
+                        </dd>
+
+                        <dt>post</dt>
+                        <dd>
+                            El valor post indica que el método de envío no se hará a través de la url, sino
+                            formando parte
+                            del cuerpo de la petición.
+                        </dd>
+
+                    </dl>
+                </dd>
+
+                <dt> enctype</dt>
+                <dd> Mediante este atributo indicaremos la forma en la que viajará la información que se mande a
+                    través del
+                    formulario HTML.
+                    La forma puede ser de varios tipos, aunque el más común es que la información se envíe como
+                    texto plano
+                    (enctype=”text/plain”).
+                </dd>
+
+            </dl>
+
+            <p>La forma en la que quedaria el codigo de un formulario estandar, y del que partiremos para crear el
+                ejemplo,
+                es:</p>
+
+            <p>&lt;form action="mailto:direcciondelcorreo@correo.com" method="post" enctype="text/plain"&gt;.</p>
+
+            <h2>Cajas basicas de texto</h2>
+
+            <p>Empecemos por añadir cajas de texto basicas.</p>
+            <p>La caja de texto basica se escribe de la siguente forma: &lt;input type="text"
+                name="nombredelacaja"&gt; y
+                su apariencia seria: </p>
+
+            <input type="text" name="nombredelacaja">
+
+            <p>Podemos completar el estilo de la caja con los siguientes atributos: </p>
+
+            <ul>
+
+                <li>size: Permite definir el tamaño de la caja, es decir, su aspecto</li>
+
+                <li>maxlength: Permite definir la cantidad de caracteres que permite meter en la caja</li>
+
+                <li>value: Define si queremos que haya un texto ya preescrito</li>
+
+                <li>name: Permite darle un nombre al campo</li>
+
+
+            </ul>
+
+            <p>Un ejemplo con el codigo input &lt;type="text" size="15" maxlength="30" value="Nombre"
+                name="nombre"&gt; :</p>
+
+            <input type="text" size="15" maxlength="30" value="Nombre" name="nombre">
+
+
+
+            <h2>Cajas de comentarios</h2>
+
+            <p>Otro tipo de caja de texto es el &lt;textarea0&gt; </p>
+
+            <p>Este permite al usuario escribir libremente una gran cantidad de texto, como por ejemplo comentarios</p>
+
+            <p> &lt;textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios&gt; </p>
+
+            <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+
+
+            <h2>Textos con password</h2>
+
+            <p>Por ultimo tenemos los textos con password, que son aquellos que se codifican mediante simbolos para
+                que no
+                se puedan leer</p>
+
+            <p> &lt;input type="password" name="contraseña"&gt; </p>
+
+            <input type="password" name="contraseña">
+
+
+            <h2>Formularios en lista: </h2>
+
+            <p>
+                Continuamos con los formularios. En ellos se pueden crear listas para que el usuario de un dato
+                concreto,
+                como por ejemplo que
+                tipo de transporte usa con mas frecuencia.
+            </p>
+
+            <p>
+                Para ello usaremos la etiqueta &lt;select name = " "&gt;. Veamos un ejemplo
+            </p>
+
+            <p>
+                &lt;select name="transporte"&gt;
+
+                <p> &lt;option&gt;Coche &lt;/option&gt;</p>
+
+                <p> &lt;option&gt;Avión &lt;/option&gt;</p>
+
+                <p> &lt;option&gt;Tren &lt;/option&gt;</p>
+
+                &lt;/select&gt;
+            </p>
+
+            <select name="transporte">
+
+                <option>Coche</option>
+
+                <option>Avión</option>
+
+                <option>Tren</option>
+
+            </select>
+
+
+            <h2>Listas de botones</h2>
+
+            <p>
+                En este tipo de lista el usuario elige pulsando un boton la opción que quiera. Vamos a ver un
+                ejemplo
+                transformando la lista anterior en
+                este tipo.
+
+            </p>
+
+            
+
+            <p>El resultado es:</p>
+
+            <input type="radio" name="transporte" value="1">Coche
+
+            <br>
+
+            <input type="radio" name="transporte" value="2">Avión
+
+            <br>
+
+            <input type="radio" name="transporte" value="3">Tren
+
+            <br />
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#ejemplo_listaPuntos"
+                aria-expanded="false" aria-controls="collapseExample">
+                Ver código
+            </button>
+            <br/><br/>
+
+            <div id="ejemplo_listaPuntos" class="collapse">
+                <p> &lt;input type="radio" name="transporte" value="1"&gt;Coche</p>
+            
+                <p> &lt;br></p>
+            
+                <p> &lt;input type="radio" name="transporte" value="2"&gt;Avión</p>
+            
+                <p> &lt;br>
+            
+                <p> &lt;input type="radio" name="transporte" value="3"&gt;Tren</p>
+            
+            </div>
+            <p>Si dentro de su etiqueta &lt;input&gt; se puede añadir el atributo checked para que salga marcado por defecto.</p>
+
+            <h2>Listas check</h2>
+
+            <p>Estas listas permiten elegir varios tipos diferentes al mismo tiempo. para ello se usa la etiqueta &lt; input type=“checkbox”.&gt;</p>
+                <input type="checkbox" name="transporte" value="1" checked>Coche
+
+                <br>
+
+                <input type="checkbox" name="transporte" value="2" checked>Avión
+
+                <br>
+
+                <input type="checkbox" name="transporte" value="3" checked>Tren
+
+                <br />
+
+                <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#ejemplo_checkbox"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Ver código
+                </button>
+
+                <br />
+                <div id="ejemplo_checkbox" class="collapse">
+               
+                    <p> &lt;input type="checkbox" name="transporte" value="1"&gt;Coche </p>
+
+                    <p> &lt;br&gt; </p>
+
+                    <p> &lt;input type="checkbox" name="transporte" value="2" checked&gt;Avión </p>
+
+                    <p> &lt;br&gt; </p>
+
+                    <p> &lt;input type="checkbox" name="transporte" value="3"&gt;Tren</p>
+                </div>
+
+
+
+
+            <h2>Botones para enviar y resetear la información </h2>
+
+            <br />
+        
+            <p>Con la etiqueta &lt;input type="submit"&gt; &lt;input type="reset"&gt; y se puede crear estos dos botones que 
+                permiten enviar la información o borrarla. Lleva un atributo value que permite darle nombre al botón</p>
+
+                <input type="submit" value="Enviar información">
+                <input type="reset" value="Borrar">
+                <br/>
+                <br/>
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Ejemplo completo                        
+                        </h1>
+                </header>
+                
+                <br />
+                <button class="btn btn-dark justify-content-center" type="button" data-toggle="collapse"
+                    data-target="#ejemplo_formulario" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Ver Ejemplo
+                </button>
+                <div id="ejemplo_formulario" class="collapse">
+                <br />
+                <form action="mailto:emaildelaempresaquehaceelformulario@email.com" method="post" enctype="text/plain">
+
+                    Nombre: <input type="text" name="nombre" size="25" maxlength="50"><br><br>
+
+                    Apellidos: <input type="text" name="apellidos" size="35" maxlength="100">
+
+                    <br><br>
+
+                    Correo electrónico: <input type="text" value="@" name="correo" size="40" maxlength="100">
+
+                    <br><br>
+
+                    Población: <input type="text" name="poblacion" size="15" maxlength="50">
+
+                    <br><br>
+
+                    Provincia: <input type="text" name="provincia" size="15" maxlength="50">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="10">
+
+                        <tr>
+
+                            <td>Edad:
+
+                                <br>
+
+                                <input type="radio" name="edad" value="020"> 0-20
+
+                                <br>
+
+                                <input type="radio" name="edad" value="2040" checked> 20-40
+
+                                <br>
+
+                                <input type="radio" name="edad" value="4060"> 40-60
+
+                                <br>
+
+                                <input type="radio" name="edad" value="60100"> 60-100
+                            </td>
+
+                            <td>
+                                ¿Cómo nos conociste?<br>
+
+                                <input type="checkbox" name="conocer">A través de un amigo.<br>
+
+                                <input type="checkbox" name="conocer">A través de un buscador.<br>
+
+                                <input type="checkbox" name="conocer">Navegando por la red.<br>
+
+                                <input type="checkbox" name="conocer">Otros
+                            </td>
+
+                        </tr>
+
+                        </table>
+
+                            Opinión sobre nuestra página web<br>
+
+                            <textarea cols="40" rows="5" name="opinion">Escriba aquí su opinión...</textarea>
+
+                            <br><br>
+
+                            Tiene alguna sugerencia...
+
+                            <br>
+
+                            <textarea cols="40" rows="5" name="sugerencias">Escriba aquí sus sugerencias...</textarea>
+
+                            <br><br>
+
+                            ¿Cuánto navegas por intenet? (Señala la opción que más se acerque)<br>
+
+                            <select name="frecuencia" size="2">
+
+                                <option value="1">2 horas al día.
+
+                                <option value="2">4 horas al día.
+
+                                <option value="3">10 horas a la semana.
+
+                                <option value="4">20 horas al mes.
+
+                            </select>
+
+                            <br>
+
+                            <br>
+
+                        <table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
+
+                            <tr>
+
+                                <td>
+                                    <div align="center">
+
+                                        <input type="submit" value="Enviar formulario">
+
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div align="center">
+
+                                        <input type="Reset" value="Borrar formulario">
+
+                                    </div>
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+                </form>
+            </div>
+            <br/>
+            <br/>
+                            
+
+
+        </div>
+
+        <div id="panel_3_8" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Enlaces                        
+                        </h1>
+                </header>
+
+            
+            <P>URLs Una URL (Uniform Resource
+                Location) es la dirección concreta de un recurso (una página web,
+                una imagen, un vídeo, un directorio,…) en Internet.
+            </P>
+            <P>La gracia es que cada URL es única
+                con lo que es una especie de DNI de un recurso. Si la URL es correcta
+                sólo habrá un solo recurso posible al que se puede referir dicha
+                URL.</P>
+            <P>Una URL se forma usando:
+            </P>
+            <P>El protocolo. Ejemplos:</P>
+            <P>  http:// (para recursos de la
+                web)
+            </P>
+            <P> https:// (para recursos de la
+                web contenidos en un servidor seguro)</P>
+            <P>  ftp:// (recursos contenidos en
+                un servidor de ficheros)
+            </P>
+            <P> ftps:// (recursos contenidos en
+                un servidor de ficheros seguro)</P>
+            <P>  mailto: (dirección de correo
+                electrónico)</P>
+            <P>  file:/// (recurso dentro de
+                nuestra propia computadora)
+            </P>
+            <P>Servidor. Nombre completo en
+                Internet del servidor que aloja el recurso al que deseamos acceder.
+            </P>
+            <P>Por ejemplo: www.nasa.gov,
+                www.centrodonbosco.es o www.jorgesanchez.net
+            </P>
+            <P>Puerto. Puerto por el que se debe
+                conectar con el servidor para obtener el recurso. Si no se indica
+                (que es lo habitual) se toma el puerto por defecto. Por ejemplo en
+                http se usa el 80. Si queremos usar uno en particular se indica tras
+                el servidor poniendo dos puntos y el puerto. Por ejemplo
+                <A HREF="http://www.midb.com:1521">www.midb.com:1521</A></P>
+            <P>Ruta. Indica el recorrido dentro del
+                servidor que hay que hacer en sus directorios para llegar al recurso
+                que queremos. Se pone después del servidor. Ejemplos:</P>
+            <P> /index.html Accede a la página
+                index.html situada en la raíz del servidor.
+            </P>
+            <P> /imagenes/paisajes/foto001.jpg
+                Accede a la imagen foto001.jpg dentro del directorio paisajes dentro,
+                a su vez, del directorio paisajes.</P>
+            <P>Cadena de búsqueda. Sólo aparece
+                tras direcciones a páginas web que admitan recibir parámetros (como
+                las páginas PHP, ASP o JSP por ejemplo).</P>
+            <P>Ejemplo: ?pagina=5&amp;idioma=es,
+                pasará los parámetros página y lenguaje usando los valores 5 y es
+                respectivamente.</P>
+            <P> Ejemplo de URL completa:
+                <A
+                    HREF="http://www.ejemplourl.com:9000/dirs/srv/pagina1.php?a=90&amp;r=7">www.ejemplourl.com:9000/dirs/srv/pagina1.php?a=90&amp;r=7</A>
+            </P>
+            <P> Por otro lado los caracteres
+                presentes en una URL deben de pertenecer al ASCII, de otro modo
+                tendremos el sempiterno problema de que no se lea bien la URL por
+                diferentes tipos de codificación del texto. De hecho los caracteres
+                permitidos en una URL son:
+            </P>
+            <P>A B C D E F G H I J K L M N O P Q R
+                S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0
+                1 2 3 4 5 6 7 8 9 0 - _ ~ .
+            </P>
+            <P>Cualquier otro no es válido aunque
+                sí aparecen los siguientes pero sólo para indicar elementos con
+                significado especial (recorridos de la ruta, elementos de la parte de
+                consulta de la URL,…). Estos símbolos están reservados para un
+                uso concreto y no se pueden utilizar para ningún otro:</P>
+            <P> ! # $ % &amp; ' ( ) * + , / : ; = ?
+                @ [ ]
+            </P>
+            <P>Si una dirección URL requiere
+                utilizar símbolos más allá de estos definidos, entonces
+                necesitamos codificar dicho símbolo.</P>
+            <P> Si necesitamos codificar en la URL
+                símbolos fuera de los caracteres permitidos entonces debemos
+                codificarlos usando una notación que comienza con el símbolo % y le
+                sigue el código hexadecimal correspondiente en el código ASCII.</P>
+
+        </div>
+
+        <div id="panel_3_9" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Etiquetas para incluir elementos Multimedia                        
+                        </h1>
+                </header>
+
+            
+            <h3>Etiqueta embed</h3>
+            <p>Se utiliza para colocar elementos no pertenecientes al lenguaje HTML</p>
+            <p>Requiere una serie de atributos:</p>
+            <ul type="square">
+                <li><strong>src</strong>: URL al recurso que se desea mostrar.</li>
+                <li><strong>type</strong>: tipo MIME que indica el contenido del recurso.</li>
+                <li><strong>height</strong>: altura de la ventana que muestra el elemento multimedia.</li>
+                <li><strong>width</strong>: anchura de la ventana que muestra el elemento multimedia.</li>
+            </ul>
+            <h3>Etiqueta object</h3>
+            <p>Nos permite incorporar cualquier tipo de contenido a la página.</p>
+            <p>Puede utilizar los siguientes atributos:</p>
+            <ul type="square">
+                <li><strong>data</strong>: URL al recurso que se desea mostrar.</li>
+                <li><strong>type</strong>: tipo MIME que indica el contenido del recurso.</li>
+                <li><strong>height</strong>: altura de la ventana que muestra el elemento multimedia.</li>
+                <li><strong>width</strong>: anchura de la ventana que muestra el elemento multimedia.</li>
+                <li><strong>usemap</strong>: permite indicar el nombre de un mapa de imágenes.</li>
+                <li><strong>name</strong>: permite indicar el nombre del objeto.</li>
+                <li><strong>form</strong>: permite indicar el nombre del formulario al que pertenece el objeto.</li>
+            </ul>
+            <h4>Etiqueta param</h4>
+            <p>Dentro de la etiqueta &lt;object&gt; se utiliza &lt;param&gt; para indicarle al plugin del navegador
+            como debe reproducir el video a través de los atributos <em>name</em> y <em>value</em>
+            en los que indicamos la función que queremos y su funcionamiento.</p>
+            <h3>Etiqueta iframe</h3>
+            <p>La etiqueta &lt;iframe&gt; se utiliza para colocar un documento dentro de otro documento,
+            incrustando así el contenido de una dirección en la página que lo referencia.</p>
+            <p>Puede utilizar los siguientes atributos:</p>
+            <ul type="square">
+                <li><strong>src</strong>: URL al recurso que se desea mostrar.</li>
+                <li><strong>height</strong>: altura del objeto.</li>
+                <li><strong>width</strong>: anchura del objeto.</li>
+            </ul>
+            <h3>Etiqueta video</h3>
+            <p>La etiqueta &lt;video&gt; se utiliza para añadir videos a una página Web.</p>
+            <p>Puede utilizar los siguientes atributos:</p>
+            <ul type="square">
+                <li><strong>src</strong>: URL al video que se desea mostrar.</li>
+                <li><strong>height</strong>: altura del video.</li>
+                <li><strong>width</strong>: anchura del video.</li>
+                <li><strong>autoplay</strong>: para indicar que el video se inicia automáticamente.</li>
+                <li><strong>loop</strong>: para indicar que el video se ejecuta automáticamente una y otra vez.</li>
+                <li><strong>controls</strong>: para indicar que el video mostrará los controles de reproducción.</li>
+                <li><strong>preload</strong>: para indicar como se hace la descarga.
+                    <ul type="square">
+                        <li><strong>auto</strong>: el video se descarga al cargar la página.</li>
+                        <li><strong>none</strong>: se descarga cuando el usuario pulse <em>play</em>.</li>
+                        <li><strong>metadata</strong>: descarga los metadatos.</li>
+                    </ul>
+                </li>
+                <li><strong>poster</strong>: permite indicar la dirección a una imagen que se mostrará mientras el
+                    video no
+                    se está reproduciendo.</li>
+            </ul>
+            <p>Dentro del elemento &lt;video&gt; tenemos la etiqueta &lt;source&gt;</p>
+            <p>En esta etiqueta indicamos al navegador que el video se codifica en dos formatos distintos, de los
+                que le
+                damos una referencia
+            para que escoja el formato que es capaz de reproducir.</p>
+            <p>Consta de dos atributos <em>src</em> y <em>type</em> en los que indicamos la URL que nos dirige al
+                video y
+                el MIME del video respectivamente.</p>
+            <p>Dentro de <em>type</em> se puede también indicar los codecs que el navegador necesita para
+                reproducir el
+                video.</p>
+            <h3>Etiqueta audio</h3>
+            <p>La etiqueta &lt;audio&gt; se utiliza de forma similar a la de video.</p>
+            <p>Puede utilizar los siguientes atributos:</p>
+            <ul type="square">
+                <li><strong>src</strong>: URL al audio que se desea mostrar.</li>
+                <li><strong>autoplay</strong>: para indicar que el audio se inicia automáticamente.</li>
+                <li><strong>loop</strong>: para indicar que el audio se ejecuta automáticamente una y otra vez.</li>
+                <li><strong>controls</strong>: para indicar que el audio mostrará los controles de reproducción.</li>
+                <li><strong>preload</strong>: para indicar como se hace la descarga.
+                    <ul type="square">
+                        <li><strong>auto</strong>: el audio se descarga al cargar la página.</li>
+                        <li><strong>none</strong>: se descarga cuando el usuario pulse <em>play</em>.</li>
+                        <li><strong>metadata</strong>: descarga los metadatos.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>De nuevo, gracias a la etiqueta &lt;source&gt; podemos dar opciones de distintos formatos.</p>
+
+        </div>
+
+        <div id="panel_3_10" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Etiqueta canvas                       
+                        </h1>
+                </header>
+
+            
+            <p>La etiqueta &lt;canvas&gt; &lt;/canvas&gt; incorpora un área a la página web donde podremos
+            dibujar elementos gráficos mediante lenguaje JavaScript. Lo que nos permite crear juegos,
+            animaciones y elementos visuales.
+            Requiere los siguientes atributos:</p>
+            <ul type="square">
+                <li><strong>id</strong>: para identificar el elemento.</li>
+                <li><strong>height</strong>: altura del lienzo.</li>
+                <li><strong>width</strong>: anchura del lienzo.</li>
+            </ul>
+            <p>Dentro de la etiqueta canvas y mediante la etiqueta &lt;script&gt; &lt;/script&gt; podemos
+            incorporar el código JavaScript necesario para "dibujar" o "animar" en el lienzo.</p>
+
+        </div>
+
+        <div id="panel_4_1" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Qué es la accesibilidad Web                     
+                        </h1>
+                </header>
+
+            
+            <p>La accesibilidad web tiene como objetivo lograr que las páginas web sean accesibles y utilizables
+                por el
+                máximo número de personas,
+                independientemente de sus conocimientos, capacidades personales o las características técnicas del
+                dispositivo de acceso empleado.</p>
+
+            <p>El grupo de trabajo "Iniciativa para la Accesibilidad Web (WAI)" publicó en 1999 la primera versión
+                del
+                documento recononcido como
+                referencia internacionalmente aceptada sobre accesibilidad Web. Se trataba de "Web Content
+                Accesibility
+                Guidelines" (WCAG). </p>
+
+            <p>Estas directrices están dirigidas a los desarrolladores y diseñadores de sitios Web, desarrolladores
+                de
+                herramientas de autor para el diseño y programación de sitios Web,
+                a los desarrolladores de herramientas de evaluación de la accesibilidad Web y para cualquiera que
+                necesite
+                un estándar de referencia para comprobar la accesibilidad de un determinado
+                contenido en la Web. </p>
+
+            <p>La última versión del documento data de Junio de 2018, las <a href="https://www.w3.org/TR/WCAG21/">WCAG
+                    2.1</a>.
+                Puedes encontrar la versión anterior en español
+                <a href="http://www.codexexempla.org/traducciones/pautas-accesibilidad-contenido-web-2.0.htm">aquí</a>.
+            </p>
+
+            <p>En España disponemos de nuestra propia legislación: <a
+                    href="https://www.boe.es/eli/es/rd/2018/09/07/1112">Real
+                    Decreto 1112/2018</a> para consultar la normativa relativa al
+                sector público.</p>
+
+
+        </div>
+
+        <div id="panel_4_2" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Niveles de conformidad                     
+                        </h1>
+                </header>
+
+            
+
+            <p>Las directrices WCAG 2.1 se componen de criterios de cumplimiento que a su vez van asociados a
+                niveles de
+                adecuación o conformidad que indican su impacto en la accesiblidad de la Web. </p>
+
+            <table border="1">
+                <tr>
+                    <td>Nivel</td>
+                    <td>Descripción</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Para lograr conformidad con el Nivel A (el mínimo), la página web satisface todos los
+                        Criterios de
+                        Conformidad del Nivel A,
+                        o proporciona una versión alternativa conforme. (<a
+                            href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0#criterios-nivel-A"
+                            class="text-info">Criterios
+                            de
+                            conformidad de nivel A</a>)</td>
+                </tr>
+                <tr>
+                    <td>AA</td>
+                    <td>Para lograr conformidad con el Nivel AA, la página web satisface todos los Criterios de
+                        Conformidad
+                        de los Niveles A y AA,
+                        o proporciona una versión alternativa conforme al Nivel AA. (<a
+                            href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0#criterios-nivel-AA"
+                            class="text-info">Criterios
+                            de
+                            conformidad de nivel AA</a>)</td>
+                </tr>
+                <tr>
+                    <td>AAA</td>
+                    <td>Para lograr conformidad con el Nivel AAA, la página web satisface todos los Criterios de
+                        Conformidad de los Niveles A, AA y AAA,
+                        o proporciona una versión alternativa conforme al Nivel AAA.(<a
+                            href="http://accesibilidadweb.dlsi.ua.es/?menu=criterios-2.0#criterios-nivel-AAA"
+                            class="text-info">Criterios
+                            de
+                            conformidad de nivel AAA</a>)</td>
+                </tr>
+            </table>
+
+            <p>Una <strong> versión alternativa conforme</strong> debe tener las siguientes características: </p>
+            <ol>
+                <li>Es conforme según un nivel designado</li>
+                <li>Proporciona la misma información y funcionalidad en el mismo idioma</li>
+                <li>Se mantiene actualizada con la misma frecuencia que el contenido no conforme</li>
+                <li>Al menos una de las siguientes condiciones es verdadera:
+                    <ol>
+                        <li>Se puede acceder a la versión conforme desde la página no conforme a través de un
+                            mecanismo
+                            compatible con la accesibilidad</li>
+                        <li>Sólo se puede acceder a la versión no conforme desde la versión conforme</li>
+                        <li>Sólo se puede acceder a la versión no conforme desde una página conforme que además
+                            proporciona
+                            un mecanismo para llegar a la versión conforme</li>
+                    </ol>
+                </li>
+            </ol>
+
+
+        </div>
+
+        <div id="panel_4_3" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Normativa de Accesibilidad Web           
+                        </h1>
+                </header>
+
+            
+
+            <p>El "Real Decreto 1112/2018 sobre accesibilidad de los sitios web y aplicaciones para dispositivos
+                móviles
+                del sector público" que entró en vigor el 20 de septiembre de 2018,
+                traslada los requisitos de la Directiva europea 2016/2012, y obliga a que todos los sitios web y
+                apps
+                nativas de la Administración Pública, o que reciban financiación pública,
+                sean accesibles.</p>
+
+            <p>Deroga los artículos 5, 6 y 7 del Real Decreto 1494/2007, que determinaban la normativa y el nivel
+                de
+                accesibilidad que tenían que cumplir los sitios web,
+                así como el contenido mínimo que debían incluir en la declaración de conformidad. Ahora deben
+                cumplir con
+                la versión más reciente de la EN 301 549, actualmente equiparada al nivel AA de las WCAG 2.1,
+                pero que incluye más requisitos que estas. Para cumplir con los requisitos del nivel AA es
+                necesario
+                cumplir con los 30 criterios de nivel A, los 20 de nivel AA y 5 requisitos de conformidad.</p>
+
+            <p>No solo los portales de la Administración Pública deben ser accesibles, también los de las empresas
+                privadas
+                que tienen más de 100 trabajadores o facturan más de 6 millones de euros.</p>
+
+            <p>A continuación se relacionan los requisitos obligatorios en las distintas plataformas.
+            </p>
+
+            <h3>Requisitos obligatorios en páginas Web</h3>
+
+            <p>Se puede deducir que es necesario cumplir con todos los criterios de los niveles A y AA y los
+                requisitos de
+                conformidad de la WCAG 2.1, pero además se deben cumplir los siguientes: </p>
+
+            <p>El anexo A de la norma indica que a las páginas web también aplican dos requisitos del capítulo "11.
+                Software" de forma no condicional:</p>
+            <ul>
+                <li><strong>No interrumpir las funciones de accesibilidad</strong>: cuando el software proporciona
+                    una
+                    interfaz de usuario, no se debe interrumpir las funciones de accesibilidad documentadas
+                    de la plataforma, excepto cuando así lo solicite el usuario durante el funcionamiento del
+                    software. Por
+                    ejemplo, si el sistema operativo ofrece la función de lupa,
+                    de reconocimiento de voz, de lector de pantalla, etc. el sitio no debe anular o interrumpir la
+                    funcionalidad, a menos que sea a través de una opción incorporada al sitio que
+                    el usuario pueda seleccionar.</li>
+                <li><strong>Preferencias de usuario</strong>: cuando el software proporciona una interfaz de
+                    usuario, debe
+                    proporcionar suficientes modos de operación que usen las preferencias de usuario para
+                    los ajustes de la plataforma respecto al color, contraste, tipo de fuente, tamaño de fuente y
+                    cursor de
+                    foco, excepto para el software diseñado para aislarse de sus plataformas
+                    subyacentes. El software que está aislado de su plataforma subyacente no tiene acceso a la
+                    configuración del usuario en la plataforma y, por lo tanto, no puede adherirse a ella.
+                    Es decir, que si a nivel de preferencias de la plataforma tienes configurado un cursor o tamaño
+                    de
+                    fuente grande, un modo de alto contraste, etc. el sitio debe respetarlo y
+                    permitir al usuario operar con las preferencias definidas en la plataforma.</li>
+            </ul>
+            <p>Además, los requisitos del capítulo 12 de la EN 301 549 son obligatorios de manera no condicional
+                para las
+                páginas web</p>
+
+            <h3>Requisitos obligatorios en apps móviles nativas</h3>
+
+            <p>Es necesario cumplir con los criterios de los niveles A y AA y los requisitos de conformidad de la
+                WCAG 2.1
+                con algunas excepciones en el caso de las apps, pero además se deben cumplir los siguientes: </p>
+            <ul>
+                <li>Capítulo 11
+                    <ul>
+                        <li>Apartado 5: Sobre la interoperabilidad con los productos de apoyo</li>
+                        <li>Apartado 6: Uso de las características de accesibilidad documentadas</li>
+                        <li>Apartado 7: Preferencias de usuario</li>
+                    </ul>
+                </li>
+                <li>Capítulo 12
+                    <ul>
+                        <li>Apartado 1: Documentación del producto</li>
+                        <li>Apartado 2: Servicios de soporte</li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <h3>Infracciones y Sanciones por incumplimiento </h3>
+            <p>Las infracciones por incumplimiento de la normativa de accesibilidad web están tipificadas dentro
+                del
+                régimen de infracciones y sanciones en materia de igualdad de oportunidades,
+                no discriminación y accesibilidad universal de las personas con discapacidad. </p>
+            <p> Se califican en tres niveles:</p>
+            <ul>
+                <li><strong>Leves</strong>: irregularidades formales.</li>
+                <li><strong>Graves</strong>: incumplimiento de la normativa y la negativa a adoptar medidas de
+                    ajuste
+                    razonables.</li>
+                <li><strong>Muy Graves</strong>: incumplimiento reiterado de los requerimientos administrativos.</li>
+            </ul>
+
+            <table border="1">
+                <caption>Tabla de Sanciones</caption>
+                <tr>
+                    <th>Nivel</th>
+                    <th>Sanción</th>
+                </tr>
+                <tr>
+                    <th>Leve</th>
+                    <th>Mínimo: 301 a 6000 €</th>
+                </tr>
+                <tr>
+                    <th> </th>
+                    <th>Medio: 6.001 a 18.000 €</th>
+                </tr>
+                <tr>
+                    <th> </th>
+                    <th>Máximo: 18.001 a 30.000 €</th>
+                </tr>
+                <tr>
+                    <th>Grave</th>
+                    <th>Mínimo: 30.000 a 60.000 €</th>
+                </tr>
+                <tr>
+                    <th> </th>
+                    <th>Medio: 60.001 a 78.000 €</th>
+                </tr>
+                <tr>
+                    <th> </th>
+                    <th>Máximo: 78.001 a 90.000 €</th>
+                </tr>
+                <tr>
+                    <th>Muy Grave</th>
+                    <th>Mínimo: 90.001 a 300.000 €</th>
+                </tr>
+                <tr>
+                    <th> </th>
+                    <th>Medio: 300.001 a 600.000 €</th>
+                </tr>
+                <tr>
+                    <th> </th>
+                    <th>Máximo: 600.001 a 1.000.0000 €</th>
+                </tr>
+            </table>
+
+
+        </div>
+
+        <div id="panel_5_1" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Cómo enlazar codigo CSS           
+                        </h1>
+                </header>
+
+            
+            <p>
+                El codigo CSS va incluido en las etiquetas de los elementos del HTML utilizando el atributo style.
+                Por ejemplo:
+            </p>
+            <p style="color:red;">Este texto sale de color rojo. </p>
+            <p>&lt;p style="color:red;">Este texto sale de color rojo. &lt;/p> </p>
+            <h2>Elementos en la cabecera style</h2>
+            <p>
+                Mientras que anteriormente hemos visto que el código CSS va dentro de la etiqueta &lt;style>. En este
+                caso
+                se colocará debajo del elemento &lt;html> en la cabecera &lt;head>. De esta manera el código se
+                aplicará a toda la página.
+            </p>
+            <p>Por ejemplo:</p>
+            &lt;style type = "text/css">
+            p{
+            color:red;
+            }
+            &lt;p/>
+            <p>Esto hará que todas las etiquetas &lt;p> se verán en rojo.</p>
+            <p>
+                El elemento style usa fundamentalmente dos elementos:
+                <ul>
+                    <li>type: Contiene el valor de text/css. </li>
+                    <li>
+                        media: indica a qué tipo de dispositivo se aplican los estilos. Se pueden diseñar distintos
+                        estilos dependiendo de los
+                        dispositivos por ejemplo:
+                        <ol>
+                            <li>all: Para todos los dispositivos.</li>
+                            <li>screen: Pantallas a color.</li>
+                            <li>print: Para impresos.</li>
+                            <li>tty: Pantallas de impresos.</li>
+                            <li>tv: Pantallas de tv.</li>
+                            <li>projection: Proyectores de video.</li>
+                            <li>handhell: Dispositivos de manos.</li>
+                            <li>speech: Sintetizadores de voz.</li>
+                            <li>braile: Dispositivos táctiles en braile para personas invidentes.</li>
+                            <li>embossed: Dispositivos de impresión en braile.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </p>
+            <p>La forma más utilizada es indicar los diferentes medios dentro del código en la directiva @media</p>
+            <h2>Desde un archivo externo</h2>
+            <p>
+                Se trata de crear un archivo aparte con la extensión .CSS donde se insertará el código CSS que
+                queramos usar.
+                Este método tiene una gran ventaja y es que al tener el código CSS en un archivo aparte nos permite
+                usarlo siempre que queramos de forma sencilla.
+            </p>
+            <p>
+                La manera de cargar el fichero .CSS es con el elemento link en la cabecera del html. Este elemento
+                tiene dos atributos:
+
+                <ul>
+                    <li>href: Donde se pone la ruta del fichero .CSS</li>
+                    <li>rel: Contiene siempre el texto stylesheet. Con esto indicaremos que estamos incluyendo una hoja
+                        de estilos.</li>
+                </ul>
+                &lt;link rel="stylesheet" href="estilo1.css" type="text/css">
+            </p>
+        </div>
+
+        <div id="panel_5_2" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Fondos           
+                        </h1>
+                </header>
+
+            
+            <h2>Color de fondo</h2>
+            <p>La propiedad <b>backgroud-color</b> permite establecer un color de fondo al elemento que se aplique la
+                propiedad. Si se aplica al elemento <b>body</b>, toda la página tendrá ese color de fondo</p>
+            <h2>Imagen de fondo</h2>
+            <p>La propiedad <b>background-image</b> permite establecer una imagen de fondo. La imagen se superpone al
+                color de fondo, de mondo que si la imagen no se carga, entonces aparece el color de fondo</p>
+            <p>La imagen de fondo se repite las veces necesarias, hasta que se rellena el elemento.</p>
+            <hr />
+            <p>Ej:<br /> &lt;!doctype html&gt;<br /> &lt;html lang="es"&gt;<br /> &lt;head&gt;<br /> &lt;meta
+                charset="UTF-8"&gt;<br /> &lt;style&gt;<br /> .fondo{<br /> background-color: blue;<br />
+                background-iimage: url(granito.png);<br /> color: white;<br /> }<br /> &lt;/style&gt;<br />
+                &lt;/head&gt;<br /> &lt;body&gt;<br /> &lt;p class="fondo"&gt;Texto de prueba&lt;/p&gt;<br />
+                &lt;/body&gt;<br /> &lt;/html&gt;<br /> </p>
+            <hr />
+            <h2>Repetición del fondo</h2>
+            <p>En principio, el fondo se repite en todas las direcciones hasta rellenar el elemento al que se aplica la
+                imagen de fondo.<br /> Valores de la propiedad:</p>
+            <ul>
+                <li>background-repeat: Es el valor por defecto, la imagen se repite en todas las direcciones, hasta
+                    rellenar el elemento</li>
+                <li>background-repeat-x: La repetición de la imagen se hace sólo en horizontal.</li>
+                <li>background-repeat-y: La repetición de la imagen se hace sólo en vertical.</li>
+                <li>background-no-repeat: La imagen no se repite, aparecerá una vez</li>
+            </ul>
+            <h2>Posición de la imagen</h2>
+            <p>Con <b>background-position</b>, la imagen se coloca desde la esquina superior izquierda por defecto de
+                la lpágina y desde ahí se repite (si se indicó la posición) o no.</p> <br />
+            <p>background-position:posicionHorizontal; posicionVertical;</p> <br />
+            <p>Podemos indicar ambos valores de esta forma:</p>
+            <ul>
+                <li>posiciónHorizontal: Se puede especificar las palabras: <b>left</b> (izquierda) <b>right</b>
+                    (derecha) o <b>middle</b> (centro). También se puede indicar una coordenada horizontal concreta
+                    (por ejemplo 20px) o relativa (15%)</li>
+                <li>posiciónVertical: Se puede especificar las palabras: <b>top</b> (arriba) <b>bottom</b> (abajo) o
+                    <b>center</b>
+                    (centro). También se puede indicar una coordenada vertical concreta (por ejemplo 20px) o relativa
+                    (15%)</li>
+            </ul>
+            <h2>Desplazamiento del fondo</h2>
+            <p>Con las propiedades siguientes podemos hacer que el fondo quede fijo mientras que sólo el resto de
+                elementos se mueven. Los posibles valores para la propiedad son:</p>
+            <ul>
+                <li>background-attachment: scroll: Valor por defecto. El fondo y el texto se mueven juntos cuando el
+                    usuario se desplaza por la página.</li>
+                <li>background-attachment: fixed: El fondo es fijo y sólo se mueve el texto</li>
+            </ul>
+        </div>
+
+        <div id="panel_5_3" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Formatos CSS           
+                        </h1>
+                </header>
+
+            
+            <p> El estilo de fuente nos permite cambiar el tamaño de la letra, su tipografia, anchura. </p>
+            <h2>Estilo CSS font color</h2>
+            <p> Este estilo nos permite cambiar el color de los textos. Se puede usar tanto el nombre del color en
+                ingles como su modo RGB. </p>
+            <p> El modo RGB es mas recomendable pues no todos los colores son admitidos en el estandar. Veamos un
+                ejemplo: </p>
+            <div style="color:rgb(0, 47, 255);">Este texto se verá de color azul.</div>
+            <p> &lt;div style="color:rgb(0, 47, 255);"&gt; Este texto se verá de color azul.</p>
+            <h2>Estilo CSS font size</h2>
+            <p> Este estilo nos permite cambiar el tamaño de la fuente. Se puede usar tanto la unidad de medida de CSS
+                (pixel) como los siguientes valores <ul>
+                    <li>xx-large</li>
+                    <li>x-large</li>
+                    <li>large</li>
+                    <li>medium</li>
+                    <li>small</li>
+                    <li>x-small</li>
+                    <li>xx-small</li>
+                </ul>
+            </p>
+            <p> Siendo el xx-large el más grande y el xx-small el más pequeño. </p>
+            <div style="font-size:xx-large;">Este texto tiene un tamaño xx-large</div>
+            <div style="font-size:15px;">Este texto tiene un tamaño de 15 pixeles.</div>
+            <p>&lt;div style="font-size:xx-large;""&gt;Este texto tiene un tamaño xx-large&lt;/div&gt;</p>
+            <p>&lt;div style="font-size:15px;""&gt; Este texto tiene un tamaño de 15 pixeles.&lt;/div&gt; </p>
+            <h2>Estilo CSS font-family</h2>
+            <p> Este estilo nos permite cambiar la tipografía, si no ponemos nada, el formato sera el determinado que
+                tenga nuestro sistema. También se pueden usar distintos tipos formatos en un solo "font-family", de
+                esta
+                forma, siguiendo las preferencias, el navegador usará el primero que encuentre que esté instalado. </p>
+            <div style=" font-family: Georgia, 'Times New Roman', serif;">Este texto estará escrito con un determinado
+                tipo de letra.</div>
+            <p>&lt;div style=" font-family: Georgia, 'Times New Roman', serif;""&gt;Este texto estará escrito con un
+                determinado tipo de letra.&lt;/div"&gt; </p>
+            <h2>Estilo CSS font-weight</h2>
+            <p> Este estilo permite cambiar la anchura de cada caracter del texto. se puede especificar de dos maneras:
+            </p>
+            <p>
+                <ul>
+                    <li>Usando un valor numerico (entre 100 y 900)</li>
+                    <li> Usando un formato relativo de texto: <ul>
+                            <li>bold</li>
+                            <li>bolder</li>
+                            <li>lighter</li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <div style=" font-weight: bold;">Estos caracteres tienen una anchura mayor.</div>
+            <p>&lt;div style=" font-weight: bold;">Estos caracteres tienen una anchura mayor.&gt;</p>
+            <h2>Estilo CSS font-style</h2>
+            <p> Para finalizar, este atributo nos permite cambiar el estilo de texto. Los que podemos usar son: normal,
+                italic y oblique. </p>
+            <p><span style=" font-style: italic;">Este texto tiene un estilo italico</span></p>
+            <p><span style=" font-style: oblique;">Este texto tiene un estilo oblique</span></p>
+            <p><span style=" font-style: normal;">Este texto tiene un estilo normal</span></p>
+            <p>&lt;span style=" font-style: italic;"&gt;Este texto tiene un estilo italico&lt;/span&gt;</p>
+            <p>&lt;span style=" font-style: oblique;"&gt;Este texto tiene un estilo oblique&lt;/span&gt;</p>
+            <p>&lt;span style=" font-style: normal;"&gt;Este texto tiene un estilo normal&lt;/span&gt;</p>
+        </div>
+
+        <div id="panel_5_4" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Formato de texto           
+                        </h1>
+                </header>
+
+            
+            <h2>Word-spacing</h2>
+            <p>Indica la distancia entre las palabras del texto. Usa las mismas medidas que la propiedad
+                font-size.Ejemplo de texto con <b>word-spacing:20px</b></p>
+            <h2>Letter-spacing</h2>
+            <p>Indica la distancia entre las letras del texto. Es similar a la anterior, pero ahora referida a la
+                distancia horizontal entre caracteres. Ejemplo con <b>letter-spacing:20px</b></p>
+            <h2>Text-decoration</h2>
+            <p>Se indican posibles efectos en el texto. Valores:</br>
+                <ul>
+                    <li>underline: Subrayado(línea por debajo del texto)</li>
+                    <li>overline: Línea por encima del texto.</li>
+                    <li>line-through: Tachado, línea que atraviesa el texto.</li>
+                    <li>blink: Parpadeo. No funciona en casi ningún navegador(sí en Firefox).</li>
+                </ul>
+            </p>
+            <h2>Vertical-align</h2>
+            <p>Posición vertical del texto (o imagen) respecto a su contenedor. Es muy versátil porque permite tanto
+                alinear en vertical un texto respecto, por ejemplo, a la celda de la tabla en la que se encuentre; como
+                indicar superíndices y subíndices. Posibilidades: <ul>
+                    <li><b> En la línea base inferiordel texto.</b></li>
+                    <li><b>sub: Subíndice.</b></li>
+                    <li><b>super: Superíndice.</b></li>
+                    <li><b>top: Arriba respecto al elemento más alto de la línea.</b></li>
+                    <li><b>text-top: En la línea superior del texto.</b></li>
+                    <li><b>middle: Medio respecto a la altura del texto o contenedor en el que estemos.</b></li>
+                    <li><b>bottom: Abajo respecto al elemento más alto de la línea.</b></li>
+                    <li><b>text-bottom: En la línea inferior del texto.</b></li>
+                    <li>Porcentaje: Porcentaje respecto al texto (por ejemplo 120%).</b></li>
+                </ul>
+            </p>
+            <h2>Text-align</h2> Alineación horizontal del texto. Puede ser: <b>left</b>(izquierda),
+            <b>right</b>(derecha), <b>center</b>(centrada) o <b>justify</b>(justificada a derecha e izquierda). <h2>
+                Text-transform</h2>
+            <p>Permite modificar el texto para que se muestre en mayúsculas o minúsculas. <ul>
+                    <li><b>capitalize:</b> La primera letra en Mayúsculas</li>
+                    <li><b>uppercase:</b>Mayúsculas</li>
+                    <li><b>lowercase:</b>Minúsculas</li>
+                    <li><b>none:</b>No hace ninguna transformación</li>
+                </ul>
+            </p>
+            <h2>Direction</h2>
+            <p>Procede de CSS2, especifica la dirección en la que se escribe el texto. Posibilidades: <ul>
+                    <li><b>ltr: <u>Left to right</u></b> de izquierda a derecha</li>
+                    <li><b>rtl: <u>Right to left</u></b> de derecha a izquierda (utilizada en lenguas como el árabe)
+                    </li>
+                </ul>
+            </p>
+            <h2>Texto-overflow</h2>
+            <p>Parte de CSS3. Indica que hacer con el texto cuando está dentro de un contenedor (como una capa) y no
+                tiene el tamaño suficiente para mostrartodoel texto. Posibilidades: <ul>
+                    <li><b>clip:</b>El texto sale cortado. Sólo se ve el texto que cabe en la capa, el resto no se
+                        muestra</li>
+                    <li><b>ellipsis:</b>Como la anterior, pero se ponen ... al final del texto recortado.</li>
+                </ul>
+            </p>
+            <h2>Text-shadow</h2>
+            <p>Se trata de una propiedad CSS3. Permite colocar una sombra al texto para darle efecto de volumen. Tiene
+                esta sintaxis: <u>text-shadow: color distanciaX distanciaY desenfoque;</u>
+                <ul>
+                    <li><b>color:</b> Es el color de la sombra</li>
+                    <li><b>distanciaX:</b>Es el desplazamiento horizontal que tendrá la sombra (puede ser positivo o
+                        negativo)</li>
+                    <li><b>distanciaY:</b>Es el desplazamienot vertical que tendrá la sombra (puede ser positivo o
+                        negativo)</li>
+                    <li><b>desenfoque:</b>Es opcional e indica cuánto se va a desenfocar la sombra. Se indica una
+                        cantidad que cuanto mayor sea, más desenfocará el fondo.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="panel_5_5" class="panel">
+            <style>
+                #rojoFuerte {
+                    color: red;
+                    font-weight: bold;
+                }
+
+                #amarillo {
+                    color: yellow;
+                }
+
+                .morado {
+                    color: purple;
+                }
+
+                .naranja {
+                    color: orange;
+                }
+            </style>
+            </head>
+
+            <body>
+
+                    <header class="row bg-dark justify-content-center mt-3 mb-3">
+                            <h1 class="text-white">
+                                    Clases e Ides           
+                            </h1>
+                    </header>
+
+                
+                <h2>Selector ID</h2>
+                <p>
+                    Los selectores ID son elementos únicos, es decir, solo puede existir uno con el mismo "nombre de
+                    atributo".
+                    Esto nos permite incluir un único estilo
+                    al elemento en concreto que queramos. Veamos un ejemplo a continuación.
+                </p>
+                <p>#rojoFuerte{</p>
+                <p> color: red;</p>
+                <p> font-weight: bold;</p>
+                <p> }</p>
+                <p>#amarillo{</p>
+                <p> color: yellow;</p>
+                <p> }
+                    <p id="rojoFuerte">Este párrafo con atributo id = "rojoFuerte" es de color rojo y en negrita</p>
+                    <p id="amarillo">En cambio este párrafo con diferente atributo id = "amarillo" es de color amarillo
+                    </p>
+                    <p>
+                        Como vemos arriba, al incluir la en la etiqueta &lt;style> el código, y luego dentro de la
+                        etiqueta &lt;p> colocar id = "nombreDelId",
+                        su estilo cambiará al escrito en el codigo CSS. Para colocar una regla basta con poner '#'
+                        seguido del nombre que queramos darle.
+                        Entre llaves irá el código CSS.
+                    </p>
+                    <p>
+                        En una página HTML puede haber infinitos atributos e ids, siempre que éstos tengan nombres
+                        distintos.Lo que significa que una vez asignado un nombre de atributo y un selector id, no se
+                        pueden usar en otro distinto.
+                    </p>
+                    <h2>Clases</h2>
+                    <p>
+                        El selector class, al contrario que el selector id, nos permite aplicar un estilo a varios
+                        elementos, incluso en etiquetas diferentes.
+                        Dentro de la &lt;style> se usa la misma nomenclatura, pero en vez de usar '#' como los id,
+                        usan '.'.
+                    </p>
+                    <p>.morado{</p>
+                    <p> color: purple;</p>
+                    <p>}</p>
+                    <p> .naranja{</p>
+                    <p> color: orange;</p>
+                    <p>}</p>
+                    <h2 class="naranja">Título con atributo class</h2>
+                    <p>Párrafo afectado por la regla CSS global.</p>
+                    <p class="naranja">Párrafo con atributo class.</p>
+                    <p>Otro párrafo que se ve afectado por la regla global.</p>
+                    <p>
+                        Otro detalle a tener en cuenta es que antes del '.' que dstingue a cada selector, si ponemos
+                        una etiqueta, todas las etiquetas del
+                        HTML aplicaran ese selector sin necesidad de llamarlo como atributo de la etiqueta. También es
+                        importante destacar, que un selector id o class
+                        se prioriza antes que un selector CSS global.
+                    </p>
+        </div>
+
+        <div id="panel_6_1" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Sobre esta Aplicación           
+                        </h1>
+                </header>
+            
+            <p>Esta aplicación forma parte de los ejercicios prácticos de la asignatura de
+                Lenguaje De Marcas y Sistemas de Gestión de Información del curso 1º de Desarrollo de Aplicaciones
+                Multiplataforma.</p>
+            <p>I.E.S. Virgen del Carmen de Jaén</p>
+
+            <header class="row bg-dark justify-content-center mt-3 mb-3">
+                    <h1 class="text-white">
+                            Autores           
+                    </h1>
+            </header>
+            <br>
+            
+            
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                data-placement="bottom" data-content=" 'Antes de desarrollar videojuegos hay que empezar por aquí' ">
+                Miguel Rubio Muñoz
+            </button>
+            
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                data-placement="bottom" data-content="'Si desarrollara aplicaciones al igual que duermo, sería Bill Gates'">
+                Antonio Parrilla Fernández
+            </button>
+            
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                data-placement="bottom" data-content="'¡Espera! ¡Espera! Que se me ha ocurrido otra cosa!'">
+                Alejandra Izaguirre Tébar
+            </button>
+            
+            <br>
+            <br>
+            <br/>
+            <br/>
+        </div>
+
+        <div id="panel_6_2" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Ayuda         
+                        </h1>
+                </header>
+
+            
+            <p>
+                La aplicación tiene un funcionamiento muy simple.
+                En la barra de navegación se pueden seleccionar los apartados a consultar.
+
+
+            </p>
+        </div>
+
+        <div id="panel_6_3" class="panel">
+
+                <header class="row bg-dark justify-content-center mt-3 mb-3">
+                        <h1 class="text-white">
+                                Bibliografía         
+                        </h1>
+                </header>
+            
+
+            <ul>
+                <li><a href="https://www.w3c.es/Traducciones/es/WAI/intro/accessibility" class="text-info">W3C.es</a>
+                </li>
+                <li><a href="http://accesibilidadweb.dlsi.ua.es/" class="text-info">Universidad de Alicante</a></li>
+                <li><a href="https://www.observatoriodelaaccesibilidad.es/" class="text-info">Observatorio de
+                        Accesibilidad Web</a></li>
+                <li><a href="https://olgacarreras.blogspot.com/" class="text-info">Usable Accesible</a></li>
+                <li><a href="http://jorgesanchez.net/lmsgi" class="text-info">Apuntes de Lenguaje de HTML y CSS</a></li>
+            </ul>
+
+        </div>
+        <footer></footer>
+
+    </div>
+
+
+</body>
